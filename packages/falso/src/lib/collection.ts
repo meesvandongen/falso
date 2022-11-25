@@ -8,13 +8,13 @@ import { FakeOptions, fake } from './core/core';
  * @example
  *
  * toCollection(() => {
- *   return { data: randNumber(); }
+ *   return { data: randNumber() }
  * })
  *
  * @example
  *
  * toCollection(() => {
- *   return { data: randNumber(); }
+ *   return { data: randNumber() }
  * }, { length: 10 }) // default is no length.
  *
  */
